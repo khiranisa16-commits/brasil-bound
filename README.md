@@ -77,12 +77,12 @@ Brasil Bound will use a simple four-page structure so users can move between dis
   - Organises destinations by the type of experiences they offer
   - Includes useful information such as best for, atmosphere and suggested length of stay
 
-- **Experiences** (`essentials.html`)
+- **Experiences** (`experiences.html`)
   - Explores beaches, culture, food, music, nightlife and nature
   - Helps users discover what kind of trip they want
   - Uses strong visual content and clear categories
 
-- **Essentials**
+- **Essentials** (`essentials.html`)
   - Provides practical information for first-time visitors
   - Covers transport, money, safety, connectivity, language and trip preparation
   - Includes user-controlled FAQ sections
