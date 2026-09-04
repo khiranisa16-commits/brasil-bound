@@ -4,7 +4,7 @@
 
 :root {
   --forest: #163B2D;
-  --terracotta: #C95D3A
+  --terracotta: #C95D3A;
   --sun: #F2B544;
   --sand: #F5EFE4;
   --ink: #18201D;
@@ -28,7 +28,7 @@ body {
 }
 
 img {
-  max-width: 100%
+  max-width: 100%;
   display: block;
 }
 
@@ -178,7 +178,7 @@ button:focus-visible {
   color: var(--white);
 }
 
-.hero.content {
+.hero-content {
   padding: 5rem 0;
   max-width: 760px;
 }
@@ -197,7 +197,7 @@ button:focus-visible {
 
 .eyebrow {
   text-transform: uppercase;
-  letter-spacing: 0.12rem;
+  letter-spacing: 0.12em;
   font-size: 0.8rem;
   font-weight: bold;
   color: var(--terracotta);
@@ -208,7 +208,7 @@ button:focus-visible {
    Shared Section Styles
 ---------------------------------- */
 
-section-heading {
+.section-heading {
   max-width: 700px;
   margin-bottom: 2.5rem;
 }
@@ -240,7 +240,7 @@ section-heading {
 
 .image-placeholder {
   min-height: 360px;
-  background-radius: 1rem;
+  background-color: var(--sun);
   border-radius: 1rem;
   display: grid;
   place-items: center;
