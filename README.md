@@ -61,3 +61,30 @@ As a user with accessibility needs, I want clear structure, readable contrast an
 #### Curious traveller
 
 As someone interested in the culture and experiences of Brasil, I want to discover food, music, nature and nightlife so that I can plan a trip that feels more meaningful than simply visiting famous landmarks.
+
+### Sitemap
+
+Brasil Bound will use a simple four-page structure so users can move between discovery, destination research, experiences and practical planning without becoming overwhelmed. 
+
+- **Home** (`index.html`)
+  - Introduces Brazil Bound
+  - Explains the purpose of the website
+  - Highlights different travel styles
+  - Directs users towards destinations, experiences and practical guidance
+
+- **Destinations** (`destinations.html`)
+  - Helps users compare places in Brasil
+  - Organises destinations by the type of experiences they offer
+  - Includes useful information such as best for, atmosphere and suggested length of stay
+
+- **Experiences** (`essentials.html`)
+  - Explores beaches, culture, food, music, nightlife and nature
+  - Helps users discover what kind of trip they want
+  - Uses strong visual content and clear categories
+
+- **Essentials**
+  - Provides practical information for first-time visitors
+  - Covers transport, money, safety, connectivity, language and trip preparation
+  - Includes user-controlled FAQ sections
+  
+  
