@@ -86,5 +86,30 @@ Brasil Bound will use a simple four-page structure so users can move between dis
   - Provides practical information for first-time visitors
   - Covers transport, money, safety, connectivity, language and trip preparation
   - Includes user-controlled FAQ sections
-  
-  
+
+## Design
+
+### Wireframes
+
+Wireframes were created before development to establish the website's hierarchy and responsive layout. 
+
+Separate desktop and mobile wireframes were produced for the homepage. The mobile design reorganises multi-column desktop content into a single-column layout to maintain readability and usability on smaller screens. 
+
+### Colour Palette
+
+The colour palette was selected to reflect the warmth, nature and energy associated with Brasil while maintaining a modern travel-editorial appearance.
+
+- Forest Green: `#163B2D`
+- Terracotta: `#C955D3A`
+- Sun Yellow: `#F2B544`
+- Sand: `#F5EFE4`
+- Dark Text: `#18201D`
+- White: `#FFFFFF`
+
+Colour combinations will be tested for sufficient contrast to support accessibility requirements.
+
+### Typography
+
+Georgia will be used for major headings to create an editorial travel style. 
+
+Arial, Helvetica and sans-serif system fonts will be used for body content to maintain readability and performance across devices. 
