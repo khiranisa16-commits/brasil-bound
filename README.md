@@ -35,3 +35,29 @@ Users should be able to:
 - Find practical information for planning a first trip
 - Explore Brasilian culture and travel experiences
 - Access the website easily on desktop, tablet and mobile
+
+### User Stories
+
+#### First-time visitor
+
+As a first-time visitor to Brasil, I want to understand what different destinations offer so that I can decide where I would most enjoy visiting.
+
+#### Experience-led traveller
+
+As a traveller who knows the type of trip I want but not the geography of Brasil, I want destinations organised by interests such as beaches, culture, nightlife and adventure so that I can quickly find suitable places.
+
+#### Practical planner
+
+As someone planning my first trip to Brasil, I want essential travel information in one place so that I do not need to search across multiple websites.
+
+#### Mobile user
+
+As a traveller using my phone to research and plan, I want the website to work clearly on smaller screens so that I can access information wherever I am.
+
+#### Accessibility-conscious user
+
+As a user with accessibility needs, I want clear structure, readable contrast and meaningful image alternatives so that I can navigate and understand the website comfortably.
+
+#### Curious traveller
+
+As someone interested in the culture and experiences of Brasil, I want to discover food, music, nature and nightlife so that I can plan a trip that feels more meaningful than simply visiting famous landmarks.
