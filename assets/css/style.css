@@ -186,7 +186,7 @@ button:focus-visible {
 }
 
 .hero h1 {
-   font-size: clamp(3rem, 8vw, 6rem)
+   font-size: clamp(3rem, 8vw, 6rem);
    margin-bottom: 0.5rem;
 }
 
