@@ -174,13 +174,26 @@ button:focus-visible {
   min-height: 70vh;
   display: flex;
   align-items: center;
-  background-color: var(--forest);
+  background-image:
+    linear-gradient(
+      rgba(22, 59, 45, 0.75),
+      rgba(22, 59, 45, 0.55)
+    ),
+    url("../images/hero-rio.jpg");
+   background-size: cover;
+   background-position: center;
   color: var(--white);
+}
+
+.hero h1 {
+   font-size: clamp(3rem, 8vw, 6rem)
+   margin-bottom: 0.5rem;
 }
 
 .hero-content {
   padding: 5rem 0;
   max-width: 760px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
 }
 
 .hero-tagline {
