@@ -245,24 +245,33 @@ button:focus-visible {
   object-fit: cover;
 }
 
+.travel-card {
+   display: flex;
+   flex-direction: column;
+
+   transition:
+      transform 0.25s ease.
+      box-shadow 0.25s ease;
+}
+
 .travel-card-content {
   padding: 1.75rem;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
 }
 
 .travel-card a {
   font-weight: bold;
   color: var(--forest);
   text-underline-offset: 0.25rem;
+   margin-top:auto;
 }
 
 .travel-card a:hover {
   color: var(--terracotta);
 }
-.travel-card {
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
-}
+
 
 .travel-card:hover {
   transform: translateY(-6px);
