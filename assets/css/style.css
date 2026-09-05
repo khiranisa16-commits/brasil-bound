@@ -179,7 +179,7 @@ button:focus-visible {
       rgba(22, 59, 45, 0.75),
       rgba(22, 59, 45, 0.55)
     ),
-    url("../images/hero-rio.jpg");
+    url("../images/hero-rio-coast.jpg");
    background-size: cover;
    background-position: center;
   color: var(--white);
