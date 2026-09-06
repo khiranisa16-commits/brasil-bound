@@ -396,6 +396,10 @@ button:focus-visible {
   align-items: center;
 }
 
+.route-ideas .secondary-button {
+   margin-top: 2.5rem;
+}
+
 .why-brasil-image {
   width: 100%;
   height: 360px;
