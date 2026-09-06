@@ -397,6 +397,8 @@ button:focus-visible {
 }
 
 .route-ideas .secondary-button {
+   display: block;
+   width: fit-content;
    margin-top: 3rem;
 }
 
