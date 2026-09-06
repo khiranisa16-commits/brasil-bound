@@ -358,6 +358,36 @@ button:focus-visible {
    margin-bottom: 0.5rem;
 }
 
+/* ----------------------------------
+   Route Ideas
+---------------------------------- */
+
+.route-ideas {
+   background-color: var(--white);
+}
+
+.route-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1.5rem;
+}
+
+.route-card {
+   background-color: var(--sand);
+   padding: 2rem;
+   border-radius: 1rem;
+}
+
+.route-length {
+   color: var(--terracotta);
+   font-weight: bold;
+   border-radius: 0.9rem;
+}
+
+.route-best {
+   margin-top: 1.5rem;
+   color: var(--forest);
+
 .split-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -453,6 +483,10 @@ button:focus-visible {
   .travel-style-grid,
   .destination-grid {
     grid-template-columns: repeat(2, 1fr);
+
+   .route-grid {
+      grid-template-columns: 1fr;
+   }
   }
 
   .split-layout {
