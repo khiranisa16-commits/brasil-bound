@@ -453,6 +453,8 @@ button:focus-visible {
    color: var(--white);
    padding: 2rem;
    border-radius: 1rem;
+   display : flex;
+   flex-direction: column;
 }
 
 .combination-card .eyebrow {
@@ -460,7 +462,7 @@ button:focus-visible {
 }
 
 .combination-match {
-   margin-top: 1.5rem;
+   margin-top: auto;
    color: var(--white);
 }
 
