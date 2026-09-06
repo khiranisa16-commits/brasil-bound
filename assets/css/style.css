@@ -318,7 +318,7 @@ button:focus-visible {
 }
 
 .destination-meta {
-   margin-auto: auto;
+   margin-top: auto;
    font-size: 0.9rem;
    color: var(--forest);
 }
