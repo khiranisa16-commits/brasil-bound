@@ -220,7 +220,7 @@ button:focus-visible {
    Internal Page Hero
 ---------------------------------- */
 .page-hero {
-   background color: var(--forest);
+   background-color: var(--forest);
    color: var(--white);
    padding: 4.5rem 0;
 }
