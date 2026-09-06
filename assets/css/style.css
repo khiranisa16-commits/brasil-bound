@@ -337,6 +337,14 @@ button:focus-visible {
   max-width: 700px;
 }
 
+.planning-cta .button {
+   background-colour: var(--sun);
+   color: var(--white);
+}
+
+.planning-cta .button:hover {
+   background-color: var(--white);
+}
 
 /* ----------------------------------
    Footer
@@ -366,12 +374,16 @@ button:focus-visible {
 
 .footer-nav a {
   text-decoration: none;
+   transition: color 0.2s ease;
 }
 
 .footer-nav a:hover {
-  text-decoration: underline;
+   color: var(--sun);
 }
 
+.site-footer .copyright {
+   opcaity: 0.8s; 
+}
 
 /* ----------------------------------
    Responsive Design
