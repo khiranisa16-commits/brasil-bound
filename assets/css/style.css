@@ -250,7 +250,7 @@ button:focus-visible {
    flex-direction: column;
 
    transition:
-      transform 0.25s ease.
+      transform 0.25s ease,
       box-shadow 0.25s ease;
 }
 
@@ -261,14 +261,14 @@ button:focus-visible {
    flex: 1;
 }
 
-.travel-card a {
+.travel-card-content a {
   font-weight: bold;
   color: var(--forest);
   text-underline-offset: 0.25rem;
    margin-top:auto;
 }
 
-.travel-card a:hover {
+.travel-card-content a:hover {
   color: var(--terracotta);
 }
 
@@ -299,7 +299,7 @@ button:focus-visible {
    flex: 1; 
 }
 
-.dsetination-meta {
+.destination-meta {
    margin-auto: auto;
    font-size: 0.9rem;
    color: var(--forest);
@@ -338,7 +338,7 @@ button:focus-visible {
 }
 
 .planning-cta .button {
-   background-colour: var(--sun);
+   background-color: var(--sun);
    color: var(--ink);
    padding: 1rem 1.6rem;
    font-size: 1.05rem;
@@ -393,7 +393,7 @@ button:focus-visible {
 }
 
 .site-footer .copyright {
-   opcaity: 0.8s; 
+   opacity: 0.8; 
 }
 
 /* ----------------------------------
