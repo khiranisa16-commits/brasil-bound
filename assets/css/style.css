@@ -438,6 +438,33 @@ button:focus-visible {
    color: var(--forest);
 }
 
+.experience-combinations {
+   margin-top: 5rem;
+}
+
+.combination-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1.5rem;
+}
+
+.combination-card {
+   background-color: var(--forest);
+   color: var(--white);
+   padding: 2rem;
+   border-radius: 1rem;
+}
+
+.combination-card .eyebrow {
+   color: var(--sun);
+}
+
+.combination-match {
+   margin-top: 1.5rem;
+   color: var(--white);
+}
+
+
 .why-brasil-image {
   width: 100%;
   height: 360px;
@@ -529,6 +556,10 @@ button:focus-visible {
   }
 
    .route-grid {
+      grid-template-columns: 1fr;
+   }
+
+   .combination-grid {
       grid-template-columns: 1fr;
    }
 
