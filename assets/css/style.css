@@ -381,12 +381,13 @@ button:focus-visible {
 .route-length {
    color: var(--terracotta);
    font-weight: bold;
-   border-radius: 0.9rem;
+   font-size: 0.9rem;
 }
 
 .route-best {
    margin-top: 1.5rem;
    color: var(--forest);
+}
 
 .split-layout {
   display: grid;
@@ -483,11 +484,11 @@ button:focus-visible {
   .travel-style-grid,
   .destination-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
 
    .route-grid {
       grid-template-columns: 1fr;
    }
-  }
 
   .split-layout {
     grid-template-columns: 1fr;
