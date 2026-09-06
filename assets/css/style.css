@@ -339,12 +339,16 @@ button:focus-visible {
 
 .planning-cta .button {
    background-colour: var(--sun);
-   color: var(--white);
+   color: var(--ink);
+   padding: 1rem 1.6rem;
+   font-size: 1.05rem;
+   margin-top: 1rem;
 }
 
 .planning-cta .button:hover {
    background-color: var(--white);
 }
+
 
 /* ----------------------------------
    Footer
