@@ -273,7 +273,7 @@ navigation and how sections would adapt between desktop and mobile.
 
 ### Homepage Structure
 
-![Initial homepage structure](assets/images/homepage-structure.jpg)
+![Initial homepage structure](assets/images/homepage-structure.jpeg)
 
 This initial plan established the order of the main homepage sections:
 navigation, hero, travel styles, Why Brasil, featured destinations,
@@ -281,7 +281,7 @@ planning information and footer.
 
 ### Desktop Wireframe
 
-![Desktop homepage wireframe](assets/images/desktop-wireframe-1.jpg)
+![Desktop homepage wireframe](assets/images/desktop-wireframe-1.jpeg)
 
 The desktop wireframe explored a wider layout with horizontal navigation,
 four travel-style cards, split content sections and featured destination
@@ -289,9 +289,9 @@ cards.
 
 ### Mobile Wireframe
 
-![Mobile homepage wireframe part one](assets/images/mobile-wireframe-1.jpg)
+![Mobile homepage wireframe part one](assets/images/mobile-wireframe-1.jpeg)
 
-![Mobile homepage wireframe continuation](assets/images/mobile-wireframe-2.jpg)
+![Mobile homepage wireframe continuation](assets/images/mobile-wireframe-2.jpeg)
 
 The mobile wireframe explored how the same content could be stacked for
 a smaller screen while maintaining the same information hierarchy.
