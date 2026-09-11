@@ -64,10 +64,10 @@ As someone interested in the culture and experiences of Brasil, I want to discov
 
 ### Sitemap
 
-Brasil Bound will use a simple four-page structure so users can move between discovery, destination research, experiences and practical planning without becoming overwhelmed. 
+Brasil Bound uses a simple four-page structure so users can move between discovery, destination research, experiences and practical planning without becoming overwhelmed. 
 
 - **Home** (`index.html`)
-  - Introduces Brazil Bound
+  - Introduces Brasil Bound
   - Explains the purpose of the website
   - Highlights different travel styles
   - Directs users towards destinations, experiences and practical guidance
@@ -107,9 +107,9 @@ of 100 across all four pages.
 
 ### Typography
 
-Georgia will be used for major headings to create an editorial travel style. 
+Georgia is used for major headings to create an editorial travel style. 
 
-Arial, Helvetica and sans-serif system fonts will be used for body content to maintain readability and performance across devices. 
+Arial, Helvetica and sans-serif system fonts are used for body content to maintain readability and performance across devices. 
 
 ## Testing
 
@@ -121,13 +121,13 @@ All HTML pages were tested using the W3C Markup Validation Service.
 
 | Page | Result |
 | --- | --- |
-| 'index.html' | Pass - no errors |
-| 'destinations.html' | Pass - no errors |
-| 'experiences.html' | Pass - no errors |
-| 'essentials.html' | Pass - no errors |
+| `index.html` | Pass - no errors |
+| `destinations.html` | Pass - no errors |
+| `experiences.html` | Pass - no errors |
+| `essentials.html` | Pass - no errors |
 
 ### CSS Validation
-'asset/css/style.css' was tested using the W3C CSS Validation Service.
+`asset/css/style.css` was tested using the W3C CSS Validation Service.
 
 **Result:** Pass - no errors found.
 
