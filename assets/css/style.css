@@ -3,73 +3,73 @@
 ---------------------------------- */
 
 :root {
-  --forest: #163B2D;
-  --terracotta: #B2472B;
-  --sun: #F2B544;
-  --sand: #F5EFE4;
-  --ink: #18201D;
-  --white: #FFFFFF;
+   --forest: #163B2D;
+   --terracotta: #B2472B;
+   --sun: #F2B544;
+   --sand: #F5EFE4;
+   --ink: #18201D;
+   --white: #FFFFFF;
 }
 
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--sand);
-  color: var(--ink);
-  line-height: 1.6;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: var(--sand);
+   color: var(--ink);
+   line-height: 1.6;
 }
 
 img {
-  max-width: 100%;
-  display: block;
+   max-width: 100%;
+   display: block;
 }
 
 a {
-  color: inherit;
+   color: inherit;
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
 
-  font-family: Georgia, "Times New Roman", serif;
-  line-height: 1.2;
-  margin-top: 0;
+   font-family: Georgia, "Times New Roman", serif;
+   line-height: 1.2;
+   margin-top: 0;
 }
 
 h1 {
-  font-size: 3.5rem;
+   font-size: 3.5rem;
 }
 
 h2 {
-  font-size: 2.4rem;
+   font-size: 2.4rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+   font-size: 1.5rem;
 }
 
 p {
-  margin-top: 0;
+   margin-top: 0;
 }
 
 .section-container,
 .header-container,
 .hero-content {
-  width: min(1120px, 90%);
-  margin: 0 auto;
+   width: min(1120px, 90%);
+   margin: 0 auto;
 }
 
 section {
-  padding: 5rem 0;
+   padding: 5rem 0;
 }
 
 /* ----------------------------------
@@ -77,24 +77,24 @@ section {
 ---------------------------------- */
 
 .skip-link {
-  position: absolute;
-  left: -9999px;
-  top: 0;
-  background-color: var(--forest);
-  color: var(--white);
-  padding: 0.75rem 1rem;
-  z-index: 1000;
+   position: absolute;
+   left: -9999px;
+   top: 0;
+   background-color: var(--forest);
+   color: var(--white);
+   padding: 0.75rem 1rem;
+   z-index: 1000;
 }
 
 .skip-link:focus {
-  left: 1rem;
-  top: 1rem;
+   left: 1rem;
+   top: 1rem;
 }
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid var(--sun);
-  outline-offset: 4px;
+   outline: 3px solid var(--sun);
+   outline-offset: 4px;
 }
 
 /* ----------------------------------
@@ -102,46 +102,46 @@ button:focus-visible {
 ---------------------------------- */
 
 .site-header {
-  background-color: var(--forest);
-  color: var(--white);
+   background-color: var(--forest);
+   color: var(--white);
 }
 
 .header-container {
-  min-height: 76px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+   min-height: 76px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 2rem;
 }
 
 .site-logo {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
+   font-family: Georgia, "Times New Roman", serif;
+   font-size: 1.5rem;
+   font-weight: bold;
+   text-decoration: none;
 }
 
 .nav-list,
 .footer-nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+   list-style: none;
+   padding: 0;
+   margin: 0;
 }
 
 .nav-list {
-  display: flex;
-  gap: 1.75rem;
+   display: flex;
+   gap: 1.75rem;
 }
 
 .nav-list a {
-  text-decoration: none;
-  font-weight: 600;
+   text-decoration: none;
+   font-weight: 600;
 }
 
 .nav-list a:hover,
 .nav-list a[aria-current="page"] {
-  text-decoration: underline;
-  text-underline-offset: 0.4rem;
+   text-decoration: underline;
+   text-underline-offset: 0.4rem;
 }
 
 /* ----------------------------------
@@ -149,21 +149,21 @@ button:focus-visible {
 ---------------------------------- */
 
 .button {
-  display: inline-block;
-  background-color: var(--forest);
-  color: var(--white);
-  padding: 0.9rem 1.4rem;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: bold;
+   display: inline-block;
+   background-color: var(--forest);
+   color: var(--white);
+   padding: 0.9rem 1.4rem;
+   border-radius: 999px;
+   text-decoration: none;
+   font-weight: bold;
 }
 
 .button:hover {
-  background-color: var(--ink);
+   background-color: var(--ink);
 }
 
 .secondary-button {
-  margin-top: 2rem;
+   margin-top: 2rem;
 }
 
 /* ----------------------------------
@@ -171,18 +171,16 @@ button:focus-visible {
 ---------------------------------- */
 
 .hero {
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
-  background-image:
-    linear-gradient(
-      rgba(22, 59, 45, 0.75),
-      rgba(22, 59, 45, 0.55)
-    ),
-    url("../images/hero-rio-coast.jpg");
+   min-height: 70vh;
+   display: flex;
+   align-items: center;
+   background-image:
+      linear-gradient(rgba(22, 59, 45, 0.75),
+         rgba(22, 59, 45, 0.55)),
+      url("../images/hero-rio-coast.jpg");
    background-size: cover;
    background-position: center;
-  color: var(--white);
+   color: var(--white);
 }
 
 .hero h1 {
@@ -191,29 +189,29 @@ button:focus-visible {
 }
 
 .hero-content {
-  padding: 5rem 0;
-  max-width: 760px;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+   padding: 5rem 0;
+   max-width: 760px;
+   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
 }
 
 .hero-tagline {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.7rem;
-  margin-bottom: 1rem;
+   font-family: Georgia, "Times New Roman", serif;
+   font-size: 1.7rem;
+   margin-bottom: 1rem;
 }
 
 .hero-intro {
-  max-width: 650px;
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
+   max-width: 650px;
+   font-size: 1.1rem;
+   margin-bottom: 2rem;
 }
 
 .eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.8rem;
-  font-weight: bold;
-  color: var(--terracotta);
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   font-size: 0.8rem;
+   font-weight: bold;
+   color: var(--terracotta);
 }
 
 .page-hero .eyebrow,
@@ -246,27 +244,28 @@ button:focus-visible {
 ---------------------------------- */
 
 .section-heading {
-  max-width: 700px;
-  margin-bottom: 2.5rem;
+   max-width: 700px;
+   margin-bottom: 2.5rem;
 }
 
 .travel-style-grid,
 .destination-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 1.5rem;
 }
 
-.travel-card, 
+.travel-card,
 .destination-card {
-  background-color: var(--white);
-  border-radius: 1rem;
-  overflow: hidden;
+   background-color: var(--white);
+   border-radius: 1rem;
+   overflow: hidden;
 }
+
 .travel-card-image {
-  width: 100%;
-  height: 230px;
-  object-fit: cover;
+   width: 100%;
+   height: 230px;
+   object-fit: cover;
 }
 
 .travel-card {
@@ -279,35 +278,35 @@ button:focus-visible {
 }
 
 .travel-card-content {
-  padding: 1.75rem;
+   padding: 1.75rem;
    display: flex;
    flex-direction: column;
    flex: 1;
 }
 
 .travel-card-content a {
-  font-weight: bold;
-  color: var(--forest);
-  text-underline-offset: 0.25rem;
-   margin-top:auto;
+   font-weight: bold;
+   color: var(--forest);
+   text-underline-offset: 0.25rem;
+   margin-top: auto;
 }
 
 .travel-card-content a:hover {
-  color: var(--terracotta);
+   color: var(--terracotta);
 }
 
 
 .travel-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 14px 30px rgba(24, 32, 29, 0.12);
+   transform: translateY(-6px);
+   box-shadow: 0 14px 30px rgba(24, 32, 29, 0.12);
 }
 
 .destination-card {
    display: flex;
    flex-direction: column;
-   transition: 
-   transform 0.25s ease,
-   box-shadow 0.25s ease;
+   transition:
+      transform 0.25s ease,
+      box-shadow 0.25s ease;
 }
 
 .destination-card-image {
@@ -320,7 +319,7 @@ button:focus-visible {
    padding: 1.75rem;
    display: flex;
    flex-direction: column;
-   flex: 1; 
+   flex: 1;
 }
 
 .destination-meta {
@@ -331,7 +330,7 @@ button:focus-visible {
 
 .destination-card:hover {
    transform: translateY(-6px);
-      box-shadow: 0 14px 30px rgba(24, 32, 29, 0.12);
+   box-shadow: 0 14px 30px rgba(24, 32, 29, 0.12);
 }
 
 .destination-page-grid {
@@ -339,6 +338,7 @@ button:focus-visible {
    grid-template-columns: repeat(2, 1fr);
    gap: 2rem;
 }
+
 .destination-detail-card {
    background-color: var(--white);
    border-radius: 1rem;
@@ -396,10 +396,10 @@ button:focus-visible {
 }
 
 .split-layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 4rem;
+   align-items: center;
 }
 
 .route-ideas .secondary-button {
@@ -459,7 +459,7 @@ button:focus-visible {
    color: var(--white);
    padding: 2rem;
    border-radius: 1rem;
-   display : flex;
+   display: flex;
    flex-direction: column;
 }
 
@@ -493,7 +493,7 @@ button:focus-visible {
 }
 
 .essential-number {
-  color: var(--terracotta);
+   color: var(--terracotta);
    font-weight: bold;
    font-size: 0.9rem;
    letter-spacing: 0.08em;
@@ -504,30 +504,30 @@ button:focus-visible {
    color: var(--forest);
 }
 
- .essential-card:last-child {
-    grid-column: 1 / -1;
- }
-   
+.essential-card:last-child {
+   grid-column: 1 / -1;
+}
+
 
 .why-brasil-image {
-  width: 100%;
-  height: 360px;
-  object-fit: cover;
-  border-radius: 1rem;
+   width: 100%;
+   height: 360px;
+   object-fit: cover;
+   border-radius: 1rem;
 }
 
 .why-brasil {
-  background-color: var(--white);
+   background-color: var(--white);
 }
 
 .planning-cta {
-  background-color: var(--forest);
-  color: var(--white);
-  text-align: center;
+   background-color: var(--forest);
+   color: var(--white);
+   text-align: center;
 }
 
 .planning-cta .section-container {
-  max-width: 700px;
+   max-width: 700px;
 }
 
 .planning-cta .button {
@@ -555,29 +555,29 @@ button:focus-visible {
 ---------------------------------- */
 
 .site-footer {
-  background-color: var(--ink);
-  color: var(--white);
-  padding: 3rem 0;
+   background-color: var(--ink);
+   color: var(--white);
+   padding: 3rem 0;
 }
 
 .footer-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 2rem;
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr;
+   gap: 2rem;
 }
 
 .footer-logo {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.4rem;
-  font-weight: bold;
+   font-family: Georgia, "Times New Roman", serif;
+   font-size: 1.4rem;
+   font-weight: bold;
 }
 
 .footer-nav li {
-  margin-bottom: 0.5rem;
+   margin-bottom: 0.5rem;
 }
 
 .footer-nav a {
-  text-decoration: none;
+   text-decoration: none;
    transition: color 0.2s ease;
 }
 
@@ -586,7 +586,7 @@ button:focus-visible {
 }
 
 .site-footer .copyright {
-   opacity: 0.8; 
+   opacity: 0.8;
 }
 
 /* ----------------------------------
@@ -594,10 +594,11 @@ button:focus-visible {
 ---------------------------------- */
 
 @media (max-width: 900px) {
-  .travel-style-grid,
-  .destination-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
+   .travel-style-grid,
+   .destination-grid {
+      grid-template-columns: repeat(2, 1fr);
+   }
 
    .route-grid {
       grid-template-columns: 1fr;
@@ -607,53 +608,53 @@ button:focus-visible {
       grid-template-columns: 1fr;
    }
 
-  .split-layout {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
+   .split-layout {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+   }
 
-  h1 {
-    font-size: 2.8rem;
-  }
+   h1 {
+      font-size: 2.8rem;
+   }
 }
 
 @media (max-width: 650px) {
-  section {
-    padding: 3.5rem 0;
-  }
+   section {
+      padding: 3.5rem 0;
+   }
 
-  .header-container {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem 0;
-  }
+   .header-container {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem 0;
+   }
 
-  .nav-list {
-    flex-wrap: wrap;
-    gap: 0.8rem 1.2rem;
-  }
+   .nav-list {
+      flex-wrap: wrap;
+      gap: 0.8rem 1.2rem;
+   }
 
-  .travel-style-grid,
-  .destination-grid,
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
+   .travel-style-grid,
+   .destination-grid,
+   .footer-grid {
+      grid-template-columns: 1fr;
+   }
 
-  .experience-grid {
-     grid-template-columns: 1fr;
-  }
-   
-  h1 {
-    font-size: 2.4rem;
-  }
+   .experience-grid {
+      grid-template-columns: 1fr;
+   }
 
-  h2 {
-    font-size: 2rem;
-  }
+   h1 {
+      font-size: 2.4rem;
+   }
 
-  .hero {
-    min-height: auto;
-  }
+   h2 {
+      font-size: 2rem;
+   }
+
+   .hero {
+      min-height: auto;
+   }
 
    .destination-page-grid {
       grid-template-columns: 1fr;
@@ -667,4 +668,3 @@ button:focus-visible {
       grid-column: auto;
    }
 }
-
