@@ -211,6 +211,6 @@ The essentials page gives first-time visitors practical guidance on transport, m
 
 ### Responsive Design
 
-![Brasil Bound homepage on mobile](assets/images/homepage-mobile.png)
+![Brasil Bound homepage on mobile](assets/images/Homepage-mobile.png)
 
 The interface adapts for smaller screens by resizing typography, wrapping navigation and changing multi-column layouts into mobile-friendly layouts.
