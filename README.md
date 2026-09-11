@@ -184,3 +184,33 @@ Each page was tested using the Lighthouse accessibility audit in Chrome DevTools
 During testing, the original terracotta accent colour did not provide sufficient contrast for small text. The colour was darkened on light backgrounds and yellow was used for eyebrow text on dark green backgrounds. 
 
 After these changes, the pages achieved a Lighthouse accessibility score of 100.
+
+## Final Website
+
+### Homepage
+![Brasil Bound homepage on desktop](assets/images/homepage-desktop.png)
+
+The homepage helps first-time visitors understand the purpose of the site and begin exploring Brasil based on their travel interests.
+
+### Destinations
+![Brasil Bound destinations page](assets/images/destinations-desktop.png)
+
+The destinations page allows users to compare locations by travel style, atmosphere and suggested stay length.
+
+### Experiences
+
+![Brasil Bound experiences page](assets/images/experiences-desktop.png)
+
+The experience page supports users who prefer to choose a trip based on interests such as beaches, culture, nature and nightlife.
+
+### Essentials
+
+![Brasil Bound essentials page](assets/images/essentials-desktop.png)
+
+The essentials page gives first-time visitors practical guidance on transport, money, connectivity, safety and language before travelling.
+
+### Responsive Design
+
+![Brasil Bound homepage on mobile](assets/images/homepage-mobile.png)
+
+The interface adapts for smaller screens by resizing typography, wrapping navigation and changing multi-column layouts into mobile-friendly layouts.
