@@ -113,3 +113,27 @@ Colour combinations will be tested for sufficient contrast to support accessibil
 Georgia will be used for major headings to create an editorial travel style. 
 
 Arial, Helvetica and sans-serif system fonts will be used for body content to maintain readability and performance across devices. 
+
+## Testing
+
+The Brasil Bound website was tested throughout development to check functionality, responsiveness, accessibility and code quality.
+
+### HTML Validation
+
+All HTML pages were tested using the W3C Markup Validation Service.
+
+| Page | Result |
+| --- | --- |
+| 'index.html' | Pass - no errors |
+| 'destinations.html' | Pass - no errors |
+| 'experiences.html' | Pass - no errors |
+| 'essentials.html' | Pass - no errors |
+
+### CSS Validation
+'asset/css/style.css' was tested using the W3C CSS Validation Service.
+
+**Result:** Pass - no errors found.
+
+### Responsive Testing
+
+The website was manually tested at different viewport sizes using Chrome DevTools.
