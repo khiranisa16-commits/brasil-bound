@@ -467,6 +467,42 @@ button:focus-visible {
 }
 
 
+/* ----------------------------------
+   Essentials Page
+---------------------------------- */
+
+.essentials-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 1.5rem;
+}
+
+.essential-card {
+   background-color: var(--white));
+   padding: 2rem;
+   border-radius: 1rem;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.essential-number {
+  color: var(--terracotta);
+   font-weight: bold;
+   font-size: 0.9rem;
+   letter-spacing: 0.08rem;
+}
+
+.essential-tip {
+   margin-top: auto;
+   color: var(--forest);
+}
+
+ .essential-card:last-child {
+    grid-column: 1 / -1;
+ }
+   
+
 .why-brasil-image {
   width: 100%;
   height: 360px;
@@ -615,6 +651,14 @@ button:focus-visible {
 
    .destination-page-grid {
       grid-template-columns: 1fr;
+   }
+
+   .essential-grid {
+      grid-template-columns: 1fr;
+   }
+
+   .essential-card:last-child {
+      grid-column: auto;
    }
 }
 
