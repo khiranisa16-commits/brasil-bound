@@ -183,6 +183,7 @@ During testing, the original terracotta accent colour did not provide sufficient
 
 After these changes, the pages achieved a Lighthouse accessibility score of 100.
 
+![Lighthouse accessibility audit showing a score of 100](assets/images/accessibility-lighthouse.png)
 ### Performance Testing
 
 The deployed homepage was checked using Chrome's local performance metrics.
@@ -198,6 +199,17 @@ The results showed that the main content loaded quickly, the page did not shift 
 These measurements were recorded locally and may vary depending on the visitor's device, connection and network conditions.
 
 ![Chrome performance metrics showing LCP, CLS and INP results](assets/images/performance-metrics.png)
+
+### Browser Testing
+
+That deployed website was manually tested in multiple browsers to check that the layout, navigation, images and responsive behaviour remained consistent.
+
+| Browser | Result |
+| --- | --- | 
+| Google | Chrome | Pass |
+| Safari | Pass |
+
+No browser-specific layout or functionality issues were found.
 
 ## Final Website
 
