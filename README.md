@@ -214,3 +214,26 @@ The essentials page gives first-time visitors practical guidance on transport, m
 ![Brasil Bound homepage on mobile](assets/images/Homepage-mobile.png)
 
 The interface adapts for smaller screens by resizing typography, wrapping navigation and changing multi-column layouts into mobile-friendly layouts.
+
+## Credits
+
+### Images
+
+All photography used in Brasil Bound was sourced from Unsplash and is
+used under the Unsplash Licence.
+
+| Website image | Photographer | Location / subject |
+| --- | --- | --- |
+| `style-beach.jpg` | Jonathan Borba | Taipu de Fora, Bahia |
+| `style-culture.jpg` | Nigel SB Photography | Capoeira in Pelourinho, Salvador |
+| `style-adventure.jpg` | Diego Costa | Cachoeira do Mosquito, Lençóis, Bahia |
+| `style-city.jpg` | Pedro Nogueira | Avenida Paulista, São Paulo |
+| `destination-rio.jpg` | gustavo nacht | Rio de Janeiro |
+| `destination-salvador.jpg` | Michael Douglas | Pelourinho, Salvador |
+| `destination-ilha-grande.jpg` | iker | Lopes Mendes Beach, Ilha Grande |
+| `destination-florianopolis.jpg` | will dornelles | Praia dos Ingleses, Florianópolis |
+| `why-brasil.jpg` | Seiji Seiji | Lençóis Maranhenses |
+
+### Content
+
+All written content for Brasil Bound was created specifically for this project.
