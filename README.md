@@ -4,7 +4,7 @@ Brasil Bound is a responsive travel discovery website designed to help first-tim
 
 ## Project Status
 
-Currently in planning and development.
+Complete and deployed.
 
 ## User Experience
 
@@ -85,28 +85,25 @@ Brasil Bound will use a simple four-page structure so users can move between dis
 - **Essentials** (`essentials.html`)
   - Provides practical information for first-time visitors
   - Covers transport, money, safety, connectivity, language and trip preparation
-  - Includes user-controlled FAQ sections
 
 ## Design
 
-### Wireframes
-
-Wireframes were created before development to establish the website's hierarchy and responsive layout. 
-
-Separate desktop and mobile wireframes were produced for the homepage. The mobile design reorganises multi-column desktop content into a single-column layout to maintain readability and usability on smaller screens. 
-
 ### Colour Palette
 
-The colour palette was selected to reflect the warmth, nature and energy associated with Brasil while maintaining a modern travel-editorial appearance.
+The colour palette was selected to reflect the warmth, nature and energy
+associated with Brasil while maintaining a modern travel-editorial appearance.
 
 - Forest Green: `#163B2D`
-- Terracotta: `#C955D3A`
+- Terracotta: `#B2472B`
 - Sun Yellow: `#F2B544`
 - Sand: `#F5EFE4`
 - Dark Text: `#18201D`
 - White: `#FFFFFF`
 
-Colour combinations will be tested for sufficient contrast to support accessibility requirements.
+The original terracotta accent was adjusted during accessibility testing
+because it did not provide sufficient contrast for small text. The final
+palette was retested using Lighthouse and achieved an accessibility score
+of 100 across all four pages.
 
 ### Typography
 
@@ -177,6 +174,7 @@ Each page was tested using the Lighthouse accessibility audit in Chrome DevTools
 
 | Page | Lighthouse Accessibility |
 | --- | --- |
+| Home | 100 |
 | Destinations | 100 |
 | Experiences | 100 |
 | Essentials | 100 |
@@ -238,3 +236,63 @@ used under the Unsplash Licence.
 ### Content
 
 All written content for Brasil Bound was created specifically for this project.
+
+## Wireframes and Planning
+
+Before development, I sketched the homepage structure and responsive
+wireframes by hand. These were used to plan the content hierarchy,
+navigation and how sections would adapt between desktop and mobile.
+
+### Homepage Structure
+
+![Initial homepage structure](assets/images/homepage-structure.jpg)
+
+This initial plan established the order of the main homepage sections:
+navigation, hero, travel styles, Why Brasil, featured destinations,
+planning information and footer.
+
+### Desktop Wireframe
+
+![Desktop homepage wireframe](assets/images/desktop-wireframe-1.jpg)
+
+The desktop wireframe explored a wider layout with horizontal navigation,
+four travel-style cards, split content sections and featured destination
+cards.
+
+### Mobile Wireframe
+
+![Mobile homepage wireframe part one](assets/images/mobile-wireframe-1.jpg)
+
+![Mobile homepage wireframe continuation](assets/images/mobile-wireframe-2.jpg)
+
+The mobile wireframe explored how the same content could be stacked for
+a smaller screen while maintaining the same information hierarchy.
+
+The final implementation evolved slightly during development and testing.
+For example, some navigation and card layouts were simplified to improve
+responsiveness and usability.
+
+## Deployment
+
+The website is deployed using GitHub Pages.
+
+### Live Website
+
+[View Brasil Bound](https://khiranisa16-commits.github.io/brasil-bound/)
+
+### Repository
+
+[View the GitHub repository](https://github.com/khiranisa16-commits/brasil-bound)
+
+### Deployment Process
+
+1. The project was pushed to the GitHub repository.
+2. The repository **Settings** were opened.
+3. **Pages** was selected.
+4. The source was set to deploy from a branch.
+5. The `main` branch and `/root` folder were selected.
+6. GitHub Pages generated the live website URL.
+7. The deployed website was checked to confirm that pages, images,
+   navigation and styles loaded correctly.
+
+Updates pushed to the `main` branch are redeployed automatically by GitHub Pages.
