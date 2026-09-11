@@ -137,3 +137,50 @@ All HTML pages were tested using the W3C Markup Validation Service.
 ### Responsive Testing
 
 The website was manually tested at different viewport sizes using Chrome DevTools.
+
+| Viewport | Result |
+| --- | --- |
+| Mobile - 375px | Pass |
+| Tablet - 1024px | Pass |
+| Desktop | Pass |
+
+Testing checked that:
+
+- content remained within the viewport
+- navigation remained usable
+- headings wrapped correctly
+- images did not overflow
+- grid layouts adapted to smaller screens
+- buttons remained readable and usable
+
+### Keyboard Testing
+
+The website was tested using keyboard navigation only.
+
+The skip link becomes visible when focused and allows users to bypass the navigation and move directly to the main content.
+
+All links and calls to action can be reached using the Tab key, with a visible focus indicator and logical focus order. 
+
+**Result:** Pass.
+
+### Link Testing
+
+All internal navigation links and calls to action were manually tested.
+
+No broken internal links were found.
+
+**Result:** Pass
+
+### Accessibility Testing
+
+Each page was tested using the Lighthouse accessibility audit in Chrome DevTools after manual keyboard testing and colour contrast improvements. 
+
+| Page | Lighthouse Accessibility |
+| --- | --- |
+| Destinations | 100 |
+| Experiences | 100 |
+| Essentials | 100 |
+
+During testing, the original terracotta accent colour did not provide sufficient contrast for small text. The colour was darkened on light backgrounds and yellow was used for eyebrow text on dark green backgrounds. 
+
+After these changes, the pages achieved a Lighthouse accessibility score of 100.
