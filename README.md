@@ -183,6 +183,22 @@ During testing, the original terracotta accent colour did not provide sufficient
 
 After these changes, the pages achieved a Lighthouse accessibility score of 100.
 
+### Performance Testing
+
+The deployed homepage was checked using Chrome's local performance metrics.
+
+| Metrics | Result | Assessment |
+| --- | --- | --- |
+| Largest Contentful Paint (LCP) | 1.70 s | Good |
+| Cumulative Layout Shift (CLS) | 0 | Good |
+| Interaction to Next Paint (INP) | 16 ms | Good |
+
+The results showed that the main content loaded quickly, the page did not shift unexpectedly during loading and interactions responded quickly.
+
+These measurements were recorded locally and may vary depending on the visitor's device, connection and network conditions.
+
+![Chrome performance metrics showing LCP, CLS and INP results](assets/images/performance-metrics.png)
+
 ## Final Website
 
 ### Homepage
