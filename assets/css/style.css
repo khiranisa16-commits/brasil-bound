@@ -478,7 +478,7 @@ button:focus-visible {
 }
 
 .essential-card {
-   background-color: (--white);
+   background-color: var(--white);
    padding: 2rem;
    border-radius: 1rem;
 
