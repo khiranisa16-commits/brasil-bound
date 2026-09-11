@@ -478,7 +478,7 @@ button:focus-visible {
 }
 
 .essential-card {
-   background-color: var(--white));
+   background-color: var(--white);
    padding: 2rem;
    border-radius: 1rem;
 
@@ -490,7 +490,7 @@ button:focus-visible {
   color: var(--terracotta);
    font-weight: bold;
    font-size: 0.9rem;
-   letter-spacing: 0.08rem;
+   letter-spacing: 0.08em;
 }
 
 .essential-tip {
@@ -653,7 +653,7 @@ button:focus-visible {
       grid-template-columns: 1fr;
    }
 
-   .essential-grid {
+   .essentials-grid {
       grid-template-columns: 1fr;
    }
 
