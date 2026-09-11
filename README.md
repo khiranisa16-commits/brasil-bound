@@ -224,6 +224,7 @@ used under the Unsplash Licence.
 
 | Website image | Photographer | Location / subject |
 | --- | --- | --- |
+| `hero-rio-coast.jpg` | Frank MANICAPELLI | Copacabana beach and Sugarloaf Mountain, Rio de Janeiro |
 | `style-beach.jpg` | Jonathan Borba | Taipu de Fora, Bahia |
 | `style-culture.jpg` | Nigel SB Photography | Capoeira in Pelourinho, Salvador |
 | `style-adventure.jpg` | Diego Costa | Cachoeira do Mosquito, Lençóis, Bahia |
