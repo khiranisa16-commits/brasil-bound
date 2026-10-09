@@ -245,6 +245,20 @@ No browser-specific layout or functionality issues were found.
 
 ## Final Website
 
+### User Story Evidence
+
+The following screenshots show how the finished website responds to the user stories identified during planning.
+
+| User Story | Screenshot Reference | Feature |
+| --- | --- | --- |
+| First-time visitor | `destinations-desktop.png` | The Destinations page allows users to compare locations by travel style, atmosphere and suggested stay length. |
+| Experience-led traveller | `experiences-desktop.png` | Experiences are organised around interests such as beaches, culture, nature and nightlife. |
+| Practical planner | `essentials-desktop.png` | The Essentials page brings together practical information about transport, money, connectivity, safety and language. |
+| Mobile user | `homepage-mobile.png` | The responsive layout adapts navigation, typography and multi-column sections for smaller screens. |
+| Accessibility-conscious user | `homepage-desktop.png` | Clear heading hierarchy, readable colour contrast and structured navigation support an accessible experience. |
+| Curious traveller | `experiences-desktop.png` | The Experiences page helps users explore culture, music, nature and nightlife when planning their trip. |
+
+
 ### Homepage
 ![Brasil Bound homepage on desktop](assets/images/homepage-desktop.png)
 
