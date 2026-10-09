@@ -138,6 +138,24 @@ All HTML pages were tested using the W3C Markup Validation Service.
 | `experiences.html` | Pass - no errors |
 | `essentials.html` | Pass - no errors |
 
+#### Validation Evidence
+
+**Homepage**
+
+![W3C HTML Validator showing no errors for the homepage](assets/images/html-validation-home.png)
+
+**Destinations**
+
+![W3C HTML Validator showing no errors for the destinations page](assets/images/html-validation-destinations.png)
+
+**Experiences**
+
+![W3C HTML Validator showing no errors for the experiences page](assets/images/html-validation-experiences.png)
+
+**Essentials**
+
+![W3C HTML Validator showing no errors for the essentials page](assets/images/html-validation-essentials.png)
+
 ### CSS Validation
 `asset/css/style.css` was tested using the W3C CSS Validation Service.
 
