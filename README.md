@@ -115,6 +115,18 @@ Arial, Helvetica and sans-serif system fonts are used for body content to mainta
 
 The Brasil Bound website was tested throughout development to check functionality, responsiveness, accessibility and code quality.
 
+The following manual tests were carried out on the deployed website to check functionality, usability and responsiveness.
+
+| Test Case | Description | Test Data/Action | Expected Result | Actual Result | Pass/ Fail | 
+| --- | --- | --- | --- | --- | --- |
+| Main navigation | Check navigation between all four pages | Click Home, Destinations, Experiences and Essentials | Each link opens the correct page and the current page is clearly indicated | All navigation links opened the correct pages and the active page was indicated correctly | Pass | 
+| Skip link | Check the skip link works using the keyboard | Press Tab when the page loads, then press Enter on "Skip to main content" | The skip link becomes visible and moves focus to the main content correctly | Pass | 
+| Keyboard navigation | Check links and calls to action without using a mouse | Navigate through the page using the Tab key | Interactive elements receive visible focus in a logical order | All links and calls to action were reachable and had visible focus styling | Pass |
+| Mobile layout | Check responsive behaviour on a small screen | Test the site at 375px width in Chrome DevTools | Content stacks correctly, remains readable and does not overflow horizontally | Content stacked correctly and no horizontal overflow was found | Pass |
+| Tablet layout | Check responsive behaviour at tablet size | Test the site at 1024px width in Chrome DevTools | Layout adapts while maintaining readability and structure | The layout adapted correctly and remained readable | Pass |
+| Internal links | Check navigation links and calls to action | Click each unique internal link and call to action | Each link opens the intended page without an error | All tested links opened the correct pages and no broken internal links were found | Pass |
+| Images | Check image behaviour across screen sizes | View all pages at desktop, tablet and mobile sizes | Images remain clear, correctly cropped and do not stretch or overflow | Images displayed correctly at all tested screen sizes | Pass |
+
 ### HTML Validation
 
 All HTML pages were tested using the W3C Markup Validation Service.
