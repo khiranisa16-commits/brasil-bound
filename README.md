@@ -115,6 +115,8 @@ Arial, Helvetica and sans-serif system fonts are used for body content to mainta
 
 The Brasil Bound website was tested throughout development to check functionality, responsiveness, accessibility and code quality.
 
+### Manual Testing
+
 The following manual tests were carried out on the deployed website to check functionality, usability and responsiveness.
 
 | Test Case | Description | Test Data/Action | Expected Result | Actual Result | Pass/ Fail | 
@@ -157,7 +159,7 @@ All HTML pages were tested using the W3C Markup Validation Service.
 ![W3C HTML Validator showing no errors for the essentials page](assets/images/html-validation-essentials.png)
 
 ### CSS Validation
-`asset/css/style.css` was tested using the W3C CSS Validation Service.
+`assets/css/style.css` was tested using the W3C CSS Validation Service.
 
 **Result:** Pass - no errors found.
 
@@ -238,7 +240,7 @@ That deployed website was manually tested in multiple browsers to check that the
 
 | Browser | Result |
 | --- | --- | 
-| Google | Chrome | Pass |
+| Google Chrome | Pass |
 | Safari | Pass |
 
 No browser-specific layout or functionality issues were found.
