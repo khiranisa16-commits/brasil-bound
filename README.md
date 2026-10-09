@@ -143,6 +143,8 @@ All HTML pages were tested using the W3C Markup Validation Service.
 
 **Result:** Pass - no errors found.
 
+![W3C CSS Validator showing no errors](assets/images/css-validation.png)
+
 ### Responsive Testing
 
 The website was manually tested at different viewport sizes using Chrome DevTools.
